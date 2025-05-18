@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Regulations Filter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .filter-container {
+            margin-bottom: 20px;
+        }
+        .filter-container label {
+            margin-right: 10px;
+        }
+        .filter-container select {
+            padding: 5px;
+            margin-right: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .loading, .error {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cybersecurity Regulations Filter</h1>
+    <div class="filter-container">
+        <label for="jurisdiction">Jurisdiction:</label>
+        <select id="jurisdiction">
+            <option value="">All</option>
+            <option value="Single-Jurisdiction">Single-Jurisdiction</option>
+            <option value="Multi-Jurisdiction">Multi-Jurisdiction</option>
+            <option value="European Union">European Union</option>
+        </select>
+
+        <label for="country">Country/Org:</label>
+        <select id="country">
+            <option value="">All</option>
+        </select>
+
+        <label for="institution">Institution:</label>
+        <select id="institution">
+            <option value="">All</option>
+        </select>
+    </div>
+
+    <div id="loading" class="loading">Loading regulations...</div>
+    <div id="error" class="error" style="display: none;"></div>
+    <table id="regulations-table" style="display: none;">
+        <thead>
+            <tr>
+                <th>Edition</th>
+                <th>Doc ID</th>
+                <th>Application</th>
+                <th>Country/Org</th>
+                <th>Institution</th>
+                <th>Date</th>
+                <th>Document</th>
+            </tr>
+        </thead>
+        <tbody id="regulations-body"></tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script>
+        const excelUrl = 'https://raw.githubusercontent.com/your-username/CyberDigest-Web/main/data/CyberDigest-Indexes-v6-FINAL%20(4).xlsx';
+
+        async function loadExcelData() {
+            try {
+                const response = await fetch(excelUrl);
+                if (!response.ok) throw new Error('Failed to fetch Excel file');
+                const arrayBuffer = await response.arrayBuffer();
+                const workbook = XLSX.read(new Uint8Array(arrayBuffer), { type: 'array' });
+                const sheetName = workbook.SheetNames[0];
+                const sheet = workbook.Sheets[sheetName];
+                const data = XLSX.utils.sheet_to_json(sheet);
+
+                document.getElementById('loading').style.display = 'none';
+                populateDropdowns(data);
+                displayRegulations(data);
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error: ${error.message}`;
+            }
+        }
+
+        function populateDropdowns(data) {
+            const countries = [...new Set(data.map(row => row['COUNTRY/ORG']))].sort();
+            const institutions = [...new Set(data.map(row => row['INSTITUTION']))].sort();
+
+            const countrySelect = document.getElementById('country');
+            countries.forEach(country => {
+                if (country) {
+                    const option = document.createElement('option');
+                    option.value = country;
+                    option.textContent = country;
+                    countrySelect.appendChild(option);
+                }
+            });
+
+            const institutionSelect = document.getElementById('institution');
+            institutions.forEach(institution => {
+                if (institution) {
+                    const option = document.createElement('option');
+                    option.value = institution;
+                    option.textContent = institution;
+                    institutionSelect.appendChild(option);
+                }
+            });
+        }
+
+        function displayRegulations(data) {
+            const jurisdiction = document.getElementById('jurisdiction').value;
+            const country = document.getElementById('country').value;
+            const institution = document.getElementById('institution').value;
+
+            const filteredData = data.filter(row => {
+                return (!jurisdiction || row['APPLICATION'] === jurisdiction) &&
+                       (!country || row['COUNTRY/ORG'] === country) &&
+                       (!institution || row['INSTITUTION'] === institution);
+            });
+
+            const tbody = document.getElementById('regulations-body');
+            tbody.innerHTML = '';
+
+            filteredData.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${row['Edition'] || ''}</td>
+                    <td>${row['DOC # (INDEX)'] || ''}</td>
+                    <td>${row['APPLICATION'] || ''}</td>
+                    <td>${row['COUNTRY/ORG'] || ''}</td>
+                    <td>${row['INSTITUTION'] || ''}</td>
+                    <td>${formatDate(row['DATE'])}</td>
+                    <td>${row['DOCUMENT'] || ''}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            document.getElementById('regulations-table').style.display = filteredData.length ? 'table' : 'none';
+        }
+
+        function formatDate(serial) {
+            if (!serial) return '';
+            const date = new Date((serial - 25569) * 86400 * 1000);
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        }
+
+        document.getElementById('jurisdiction').addEventListener('change', () => displayRegulations(getCurrentData()));
+        document.getElementById('country').addEventListener('change', () => displayRegulations(getCurrentData()));
+        document.getElementById('institution').addEventListener('change', () => displayRegulations(getCurrentData()));
+
+        let globalData = [];
+        function getCurrentData() {
+            return globalData;
+        }
+
+        loadExcelData().then(() => {
+            globalData = getCurrentData();
+        });
+    </script>
+</body>
+</html>
