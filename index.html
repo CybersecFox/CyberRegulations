@@ -21,6 +21,16 @@
             padding: 5px;
             margin-right: 20px;
         }
+        .filter-container button {
+            padding: 6px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .filter-container button:hover {
+            background-color: #45a049;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -60,6 +70,8 @@
         <select id="institution">
             <option value="">All</option>
         </select>
+
+        <button id="submit-filter">Submit</button>
     </div>
 
     <div id="loading" class="loading">Loading regulations...</div>
@@ -84,7 +96,6 @@
         // Replace 'your-username' with your GitHub username
         const excelUrl = 'https://raw.githubusercontent.com/CybersecFox/CyberRegulations/main/data/CyberDigest-Indexes-v6-FINAL%20(4).xlsx';
         const targetSheet = 'DIGEST Document Links v6';
-
         let globalData = [];
 
         async function loadExcelData() {
@@ -95,10 +106,8 @@
                 const arrayBuffer = await response.arrayBuffer();
                 const workbook = XLSX.read(new Uint8Array(arrayBuffer), { type: 'array' });
 
-                // Log all sheet names
                 console.log('Available sheets:', workbook.SheetNames);
 
-                // Check if target sheet exists
                 if (!workbook.SheetNames.includes(targetSheet)) {
                     throw new Error(`Sheet "${targetSheet}" not found. Available sheets: ${workbook.SheetNames.join(', ')}`);
                 }
@@ -106,33 +115,33 @@
                 const sheet = workbook.Sheets[targetSheet];
                 const data = XLSX.utils.sheet_to_json(sheet, { header: 1 });
 
-                // Log column headers
                 const headers = data[0] || [];
-                console.log('Column headers in DIGEST Document Links v6:', headers);
+                console.log('Column headers:', headers);
 
-                // Verify COUNTRY/ORG header
-                if (!headers.includes('COUNTRY/ORG')) {
-                    throw new Error(`COUNTRY/ORG column not found in sheet "${targetSheet}". Headers: ${headers.join(', ')}`);
+                const requiredHeaders = ['Edition', 'DOC # (INDEX)', 'APPLICATION', 'COUNTRY/ORG', 'INSTITUTION', 'DATE', 'DOCUMENT'];
+                const missingHeaders = requiredHeaders.filter(h => !headers.includes(h));
+                if (missingHeaders.length) {
+                    throw new Error(`Missing required headers: ${missingHeaders.join(', ')}`);
                 }
 
-                // Convert to object array
                 const formattedData = data.slice(1).map(row => {
                     const obj = {};
                     headers.forEach((header, index) => {
                         obj[header] = row[index];
                     });
                     return obj;
-                }).filter(row => row['COUNTRY/ORG']); // Remove rows with empty COUNTRY/ORG
+                }).filter(row => row['COUNTRY/ORG'] || row['INSTITUTION']); // Keep rows with valid data
 
-                console.log('Excel data loaded:', formattedData.length, 'rows');
-                console.log('COUNTRY/ORG values:', [...new Set(formattedData.map(row => row['COUNTRY/ORG']))].sort());
+                console.log('Loaded rows:', formattedData.length);
+                console.log('COUNTRY/ORG values:', [...new Set(formattedData.map(row => row['COUNTRY/ORG']).filter(val => val))].sort());
+                console.log('Sample data:', formattedData.slice(0, 3));
 
-                if (!formattedData.length) throw new Error('No valid data rows with COUNTRY/ORG in sheet');
+                if (!formattedData.length) throw new Error('No valid data rows found in sheet');
 
                 globalData = formattedData;
                 document.getElementById('loading').style.display = 'none';
                 populateDropdowns(globalData);
-                displayRegulations(globalData);
+                displayRegulations(globalData); // Show all data initially
             } catch (error) {
                 console.error('Error loading Excel:', error);
                 document.getElementById('loading').style.display = 'none';
@@ -178,6 +187,7 @@
             }
 
             console.log('Country/Org dropdown populated with:', countries);
+            console.log('Institution dropdown populated with:', institutions);
         }
 
         function displayRegulations(data) {
@@ -185,7 +195,7 @@
             const country = document.getElementById('country').value;
             const institution = document.getElementById('institution').value;
 
-            console.log('Filtering with:', { jurisdiction, country, institution });
+            console.log('Applying filters:', { jurisdiction, country, institution });
 
             const filteredData = data.filter(row => {
                 return (!jurisdiction || row['APPLICATION'] === jurisdiction) &&
@@ -201,4 +211,38 @@
                 tr.innerHTML = `
                     <td>${row['Edition'] || ''}</td>
                     <td>${row['DOC # (INDEX)'] || ''}</td>
-                    <td>${
+                    <td>${row['APPLICATION'] || ''}</td>
+                    <td>${row['COUNTRY/ORG'] || ''}</td>
+                    <td>${row['INSTITUTION'] || ''}</td>
+                    <td>${formatDate(row['DATE'])}</td>
+                    <td>${row['DOCUMENT'] || ''}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            document.getElementById('regulations-table').style.display = filteredData.length ? 'table' : 'none';
+            console.log('Displayed rows:', filteredData.length);
+        }
+
+        function formatDate(value) {
+            if (!value) return '';
+            if (typeof value === 'number') {
+                try {
+                    const date = new Date((value - 25569) * 86400 * 1000);
+                    if (isNaN(date.getTime())) return value.toString();
+                    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                } catch (e) {
+                    console.warn('Invalid date format:', value);
+                    return value.toString();
+                }
+            }
+            console.log('Non-numeric date:', value);
+            return value; // Return as-is if not a serial date
+        }
+
+        document.getElementById('submit-filter').addEventListener('click', () => displayRegulations(globalData));
+
+        loadExcelData();
+    </script>
+</body>
+</html>
