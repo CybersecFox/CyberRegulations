@@ -81,57 +81,111 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script>
+        // Replace 'your-username' with your GitHub username
         const excelUrl = 'https://raw.githubusercontent.com/CybersecFox/CyberRegulations/main/data/CyberDigest-Indexes-v6-FINAL%20(4).xlsx';
+        const targetSheet = 'DIGEST Document Links v6';
+
+        let globalData = [];
 
         async function loadExcelData() {
             try {
+                console.log('Fetching Excel file from:', excelUrl);
                 const response = await fetch(excelUrl);
-                if (!response.ok) throw new Error('Failed to fetch Excel file');
+                if (!response.ok) throw new Error(`Failed to fetch Excel file: ${response.status} ${response.statusText}`);
                 const arrayBuffer = await response.arrayBuffer();
                 const workbook = XLSX.read(new Uint8Array(arrayBuffer), { type: 'array' });
-                const sheetName = workbook.SheetNames[0];
-                const sheet = workbook.Sheets[sheetName];
-                const data = XLSX.utils.sheet_to_json(sheet);
 
+                // Log all sheet names
+                console.log('Available sheets:', workbook.SheetNames);
+
+                // Check if target sheet exists
+                if (!workbook.SheetNames.includes(targetSheet)) {
+                    throw new Error(`Sheet "${targetSheet}" not found. Available sheets: ${workbook.SheetNames.join(', ')}`);
+                }
+
+                const sheet = workbook.Sheets[targetSheet];
+                const data = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+                // Log column headers
+                const headers = data[0] || [];
+                console.log('Column headers in DIGEST Document Links v6:', headers);
+
+                // Verify COUNTRY/ORG header
+                if (!headers.includes('COUNTRY/ORG')) {
+                    throw new Error(`COUNTRY/ORG column not found in sheet "${targetSheet}". Headers: ${headers.join(', ')}`);
+                }
+
+                // Convert to object array
+                const formattedData = data.slice(1).map(row => {
+                    const obj = {};
+                    headers.forEach((header, index) => {
+                        obj[header] = row[index];
+                    });
+                    return obj;
+                }).filter(row => row['COUNTRY/ORG']); // Remove rows with empty COUNTRY/ORG
+
+                console.log('Excel data loaded:', formattedData.length, 'rows');
+                console.log('COUNTRY/ORG values:', [...new Set(formattedData.map(row => row['COUNTRY/ORG']))].sort());
+
+                if (!formattedData.length) throw new Error('No valid data rows with COUNTRY/ORG in sheet');
+
+                globalData = formattedData;
                 document.getElementById('loading').style.display = 'none';
-                populateDropdowns(data);
-                displayRegulations(data);
+                populateDropdowns(globalData);
+                displayRegulations(globalData);
             } catch (error) {
+                console.error('Error loading Excel:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent = `Error: ${error.message}`;
+                document.getElementById('error').textContent = `Error: ${error.message}. Check console for details.`;
             }
         }
 
         function populateDropdowns(data) {
-            const countries = [...new Set(data.map(row => row['COUNTRY/ORG']))].sort();
-            const institutions = [...new Set(data.map(row => row['INSTITUTION']))].sort();
+            const countries = [...new Set(data.map(row => row['COUNTRY/ORG']).filter(val => val))].sort();
+            const institutions = [...new Set(data.map(row => row['INSTITUTION']).filter(val => val))].sort();
 
             const countrySelect = document.getElementById('country');
+            countrySelect.innerHTML = '<option value="">All</option>';
             countries.forEach(country => {
-                if (country) {
-                    const option = document.createElement('option');
-                    option.value = country;
-                    option.textContent = country;
-                    countrySelect.appendChild(option);
-                }
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
             });
 
+            if (countries.length === 0) {
+                const option = document.createElement('option');
+                option.value = '';
+                option.textContent = 'No countries available';
+                countrySelect.appendChild(option);
+            }
+
             const institutionSelect = document.getElementById('institution');
+            institutionSelect.innerHTML = '<option value="">All</option>';
             institutions.forEach(institution => {
-                if (institution) {
-                    const option = document.createElement('option');
-                    option.value = institution;
-                    option.textContent = institution;
-                    institutionSelect.appendChild(option);
-                }
+                const option = document.createElement('option');
+                option.value = institution;
+                option.textContent = institution;
+                institutionSelect.appendChild(option);
             });
+
+            if (institutions.length === 0) {
+                const option = document.createElement('option');
+                option.value = '';
+                option.textContent = 'No institutions available';
+                institutionSelect.appendChild(option);
+            }
+
+            console.log('Country/Org dropdown populated with:', countries);
         }
 
         function displayRegulations(data) {
             const jurisdiction = document.getElementById('jurisdiction').value;
             const country = document.getElementById('country').value;
             const institution = document.getElementById('institution').value;
+
+            console.log('Filtering with:', { jurisdiction, country, institution });
 
             const filteredData = data.filter(row => {
                 return (!jurisdiction || row['APPLICATION'] === jurisdiction) &&
@@ -147,36 +201,4 @@
                 tr.innerHTML = `
                     <td>${row['Edition'] || ''}</td>
                     <td>${row['DOC # (INDEX)'] || ''}</td>
-                    <td>${row['APPLICATION'] || ''}</td>
-                    <td>${row['COUNTRY/ORG'] || ''}</td>
-                    <td>${row['INSTITUTION'] || ''}</td>
-                    <td>${formatDate(row['DATE'])}</td>
-                    <td>${row['DOCUMENT'] || ''}</td>
-                `;
-                tbody.appendChild(tr);
-            });
-
-            document.getElementById('regulations-table').style.display = filteredData.length ? 'table' : 'none';
-        }
-
-        function formatDate(serial) {
-            if (!serial) return '';
-            const date = new Date((serial - 25569) * 86400 * 1000);
-            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-        }
-
-        document.getElementById('jurisdiction').addEventListener('change', () => displayRegulations(getCurrentData()));
-        document.getElementById('country').addEventListener('change', () => displayRegulations(getCurrentData()));
-        document.getElementById('institution').addEventListener('change', () => displayRegulations(getCurrentData()));
-
-        let globalData = [];
-        function getCurrentData() {
-            return globalData;
-        }
-
-        loadExcelData().then(() => {
-            globalData = getCurrentData();
-        });
-    </script>
-</body>
-</html>
+                    <td>${
