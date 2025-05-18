@@ -93,7 +93,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script>
-        // Replace 'your-username' with your GitHub username
         const excelUrl = 'https://raw.githubusercontent.com/CybersecFox/CyberRegulations/main/data/CyberDigest-Indexes-v6-FINAL%20(4).xlsx';
         const targetSheet = 'DIGEST Document Links v6';
         let globalData = [];
@@ -118,7 +117,16 @@
                 const headers = data[0] || [];
                 console.log('Column headers:', headers);
 
-                const requiredHeaders = ['Edition', 'DOC # (INDEX)', 'APPLICATION', 'COUNTRY/ORG', 'INSTITUTION', 'DATE', 'DOCUMENT'];
+                // Update these to match your Excel file's headers
+                const requiredHeaders = [
+                    'Edition Number', // Replace with actual header for Edition
+                    'DOC # (INDEX)',
+                    'APPLICATION',
+                    'COUNTRY/ORG',
+                    'INSTITUTION',
+                    'Date', // Replace with actual header for DATE
+                    'DOCUMENT'
+                ];
                 const missingHeaders = requiredHeaders.filter(h => !headers.includes(h));
                 if (missingHeaders.length) {
                     throw new Error(`Missing required headers: ${missingHeaders.join(', ')}`);
@@ -130,7 +138,7 @@
                         obj[header] = row[index];
                     });
                     return obj;
-                }).filter(row => row['COUNTRY/ORG'] || row['INSTITUTION']); // Keep rows with valid data
+                }).filter(row => row['COUNTRY/ORG'] || row['INSTITUTION']);
 
                 console.log('Loaded rows:', formattedData.length);
                 console.log('COUNTRY/ORG values:', [...new Set(formattedData.map(row => row['COUNTRY/ORG']).filter(val => val))].sort());
@@ -209,12 +217,12 @@
             filteredData.forEach(row => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                    <td>${row['Edition'] || ''}</td>
+                    <td>${row['Edition Number'] || ''}</td>
                     <td>${row['DOC # (INDEX)'] || ''}</td>
                     <td>${row['APPLICATION'] || ''}</td>
                     <td>${row['COUNTRY/ORG'] || ''}</td>
                     <td>${row['INSTITUTION'] || ''}</td>
-                    <td>${formatDate(row['DATE'])}</td>
+                    <td>${formatDate(row['Date'])}</td>
                     <td>${row['DOCUMENT'] || ''}</td>
                 `;
                 tbody.appendChild(tr);
@@ -237,7 +245,7 @@
                 }
             }
             console.log('Non-numeric date:', value);
-            return value; // Return as-is if not a serial date
+            return value;
         }
 
         document.getElementById('submit-filter').addEventListener('click', () => displayRegulations(globalData));
