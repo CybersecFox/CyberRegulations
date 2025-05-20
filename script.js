@@ -3,17 +3,14 @@ let filteredData = [];
 let currentPage = 1;
 const rowsPerPage = 10;
 
-// Load and parse CSV
-Papa.parse("regulations.csv", {
-  download: true,
-  header: true,
-  skipEmptyLines: true,
-  complete: function(results) {
-    data = results.data;
+// Load JSON data
+fetch('regulations.json')
+  .then(response => response.json())
+  .then(json => {
+    data = json;
     populateFilters();
     updateTable();
-  }
-});
+  });
 
 function populateFilters() {
   const apps = [...new Set(data.map(d => d.APPLICATION))].sort();
