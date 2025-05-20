@@ -1,2 +1,0 @@
-# CyberRegulations
-Global Cybersecurity Regulations
