@@ -1,0 +1,70 @@
+let data = [];
+
+// Load and parse CSV
+Papa.parse("regulations.csv", {
+  download: true,
+  header: true,
+  complete: function(results) {
+    data = results.data;
+    populateFilters();
+    display(data);
+  }
+});
+
+function populateFilters() {
+  const apps = [...new Set(data.map(d => d.APPLICATION))].sort();
+  const countries = [...new Set(data.map(d => d["COUNTRY/ORG"]))].sort();
+  const institutions = [...new Set(data.map(d => d.INSTITUTION))].sort();
+
+  populateSelect("filter-application", ['', ...apps]);
+  populateSelect("filter-country", ['', ...countries]);
+  populateSelect("filter-institution", ['', ...institutions]);
+
+  document.querySelectorAll(".filters select").forEach(sel => {
+    sel.addEventListener("change", applyFilters);
+  });
+}
+
+function populateSelect(id, values) {
+  const select = document.getElementById(id);
+  select.innerHTML = "";
+  values.forEach(val => {
+    const option = document.createElement("option");
+    option.value = val;
+    option.textContent = val || "All";
+    select.appendChild(option);
+  });
+}
+
+function applyFilters() {
+  const app = document.getElementById("filter-application").value;
+  const country = document.getElementById("filter-country").value;
+  const inst = document.getElementById("filter-institution").value;
+
+  const filtered = data.filter(item =>
+    (!app || item.APPLICATION === app) &&
+    (!country || item["COUNTRY/ORG"] === country) &&
+    (!inst || item.INSTITUTION === inst)
+  );
+
+  display(filtered);
+}
+
+function display(list) {
+  const tbody = document.querySelector("#reg-table tbody");
+  tbody.innerHTML = "";
+
+  list.forEach(item => {
+    const row = document.createElement("tr");
+
+    row.innerHTML = `
+      <td>${item['DOC # (INDEX)']}</td>
+      <td>${item.APPLICATION}</td>
+      <td>${item['COUNTRY/ORG']}</td>
+      <td>${item.INSTITUTION}</td>
+      <td>${item.DATE}</td>
+      <td><a href="${item.DOCUMENT}" target="_blank">Link</a></td>
+    `;
+    tbody.appendChild(row);
+  });
+}

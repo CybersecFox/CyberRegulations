@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Regulations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cyber Regulations List</h1>
+
+  <div class="filters">
+    <label>Application:
+      <select id="filter-application"></select>
+    </label>
+    <label>Country/Organization:
+      <select id="filter-country"></select>
+    </label>
+    <label>Institution:
+      <select id="filter-institution"></select>
+    </label>
+  </div>
+
+  <table id="reg-table">
+    <thead>
+      <tr>
+        <th>DOC #</th>
+        <th>Application</th>
+        <th>Country/Org</th>
+        <th>Institution</th>
+        <th>Date</th>
+        <th>Document</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js "></script>
+  <script src="script.js"></script>
+</body>
+</html>
