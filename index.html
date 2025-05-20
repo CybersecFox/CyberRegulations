@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cyber Regulations</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Cyber Regulations List</h1>
+
+  <div class="controls">
+    <input type="text" id="search-bar" placeholder="Search all columns..." />
+  </div>
 
   <div class="filters">
     <label>Application:
@@ -20,19 +25,27 @@
     </label>
   </div>
 
-  <table id="reg-table">
-    <thead>
-      <tr>
-        <th>DOC #</th>
-        <th>Application</th>
-        <th>Country/Org</th>
-        <th>Institution</th>
-        <th>Date</th>
-        <th>Document</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <div class="table-container">
+    <table id="reg-table">
+      <thead>
+        <tr>
+          <th class="sortable">DOC #</th>
+          <th class="sortable">Application</th>
+          <th class="sortable">Country/Org</th>
+          <th class="sortable">Institution</th>
+          <th class="sortable">Date</th>
+          <th>Document</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="pagination">
+    <button id="prev-btn">Previous</button>
+    <span id="page-info"></span>
+    <button id="next-btn">Next</button>
+  </div>
 
   <!-- PapaParse for CSV parsing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js "></script>
