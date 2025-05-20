@@ -1,0 +1,2747 @@
+[
+  {
+    "DOC # (INDEX)": "06_01a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NYDFS",
+    "DATE": "Jun-21",
+    "DOCUMENT": "NYDFS Industry Letter: Guidance on Ransomware Prevention",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_02a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "FSI",
+    "DATE": "May-21",
+    "DOCUMENT": "FSI Executive Summary Series - Cyber resilience practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_03a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK National Cyber Security Centre",
+    "DATE": "May-21",
+    "DOCUMENT": "UK NCSC 10 Steps Guidance to Cyber Security",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_04a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "IMF",
+    "INSTITUTION": "IMF",
+    "DATE": "Apr-21",
+    "DOCUMENT": "IMF WP Central Bank Risk Management, Fintech, and Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_05a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "BCBS",
+    "INSTITUTION": "BCBS",
+    "DATE": "Mar-21",
+    "DOCUMENT": "BCBS Principles for operational resilience",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_06a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "BCBS",
+    "INSTITUTION": "BCBS",
+    "DATE": "Mar-21",
+    "DOCUMENT": "BCBS Principles for the sound management of operational risk",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_07a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "IMF",
+    "INSTITUTION": "IMF",
+    "DATE": "Mar-21",
+    "DOCUMENT": "IMF F&D Maurer Nelson - The Cyber Global Threat",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_08a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "ISO/IEC",
+    "INSTITUTION": "ISO/IEC",
+    "DATE": "Feb-21",
+    "DOCUMENT": "ISO/IEC TS 27100, Information technology � Cybersecurity � Overview and concepts",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_08b",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "ISO/IEC",
+    "INSTITUTION": "ISO/IEC",
+    "DATE": "Feb-21",
+    "DOCUMENT": "ISO/IEC TS 27110, Information technology, cybersecurity and privacy protection � Cybersecurity framework development guidelines",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_09a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NYDFS",
+    "DATE": "Feb-21",
+    "DOCUMENT": "NYDFS Cyber Insurance Risk Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_10a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "BIS",
+    "DATE": "Jan-21",
+    "DOCUMENT": "BIS Covid-19 and cyber risk in the financial sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_11a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "OAS",
+    "INSTITUTION": "OAS",
+    "DATE": 2020,
+    "DOCUMENT": "OAS Cybersecurity Education - Planning for the Future Through Workforce Development",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_12a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "IAIS",
+    "INSTITUTION": "IAIS",
+    "DATE": "Dec-20",
+    "DOCUMENT": "IAIS Cyber Risk Underwriting Identified Challenges and Supervisory Considerations for Sustainable Market Development",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_13a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Dec-20",
+    "DOCUMENT": "CEIP Capacity-Building Tool Box for Cybersecurity and Financial Organizations",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_13b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Dec-20",
+    "DOCUMENT": "CEIP Capacity-Building Tool Box for Cybersecurity and Financial Organizations Supplementary Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_14a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FinCEN",
+    "DATE": "Dec-20",
+    "DOCUMENT": "FinCEN Notice to Financial Institutions Stay Alert to COVID-19 Vaccine-Related Scams and Cyberattacks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_14b",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FinCEN",
+    "DATE": "Oct-20",
+    "DOCUMENT": "FinCEN Advisory on Ransomware and the Use of the Financial System to Facilitate Ransom Payments",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_14c",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FinCEN",
+    "DATE": "Jul-20",
+    "DOCUMENT": "FinCEN Advisory on Cybercrime and Cyber-Enabled Crime Exploiting the Coronavirus Disease 2019 (COVID-19) Pandemic",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_14d",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FinCEN",
+    "DATE": "May-20",
+    "DOCUMENT": "FinCEN Advisory on Medical Scams Related to the Coronavirus Disease 2019 (COVID-19)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_15a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Dec-20",
+    "DOCUMENT": "EC Joint Comm to European Parliament and the Council:  The EU's Cybersecurity Strategy for the Digital Decade",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_15b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Dec-20",
+    "DOCUMENT": "EC Opening remarks by Vice-President Margaritis Schinas at press conf on the cybersecurity strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_15c",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Jul-20",
+    "DOCUMENT": "EC Security Union Strategy 2020-2025",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_15d",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Feb-20",
+    "DOCUMENT": "EC Communication Shaping Europe's digital future",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_16a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST - National Institute for Cybersecurity Education",
+    "DATE": "Nov-20",
+    "DOCUMENT": "US NIST - Workforce Framework for Cybersecurity (NICE Framework)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_17a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Nov-20",
+    "DOCUMENT": "CEIP International Strategy to Better Protect the Financial System Against Cyber Threats",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_18a",
+    "APPLICATION": "Multi-jurisdictions",
+    "COUNTRY/ORG": "Toronto Center",
+    "INSTITUTION": "Toronto Center",
+    "DATE": "Nov-20",
+    "DOCUMENT": "Toronto Center Cloud Computing: Issues for Supervisors",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_19a",
+    "APPLICATION": "Multi-jurisdictions",
+    "COUNTRY/ORG": "WB-FIGI",
+    "INSTITUTION": "WB-FIGI",
+    "DATE": "Nov-20",
+    "DOCUMENT": "WB-FIGI Cybersecurity for FMIs Newsletter 4th Edition",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_20a",
+    "APPLICATION": "Multi-jurisdictions",
+    "COUNTRY/ORG": "IADI",
+    "INSTITUTION": "IADI",
+    "DATE": "Nov-20",
+    "DOCUMENT": "IADI Guidance Paper - \"Risk Management and Internal Control System of Deposit Insurers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_21a",
+    "APPLICATION": "Multi-jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Nov-20",
+    "DOCUMENT": "G7 Fundamental Elements of Cyber Exercise Programmes",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_22a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Oct-20",
+    "DOCUMENT": "FSB Effective Practices for Cyber Incident Response and Recovery - Final Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_23a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "G20",
+    "DATE": "Oct-20",
+    "DOCUMENT": "G20 Communiqu�: Finance Ministers and Central Bank Governors Meeting",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_24a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK National Cyber Security Centre",
+    "DATE": "Oct-20",
+    "DOCUMENT": "UK NCSC - Cyber Security Small Business Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_25a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "GCA",
+    "INSTITUTION": "GCA",
+    "DATE": "Sep-20",
+    "DOCUMENT": "GCA The Cybersecurity Toolkit for Small Business (updated)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_26a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-20",
+    "DOCUMENT": "EC Proposal for a regulation on digital operational resilience for the financial sector (DORA) and amending Regulations",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_26b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-20",
+    "DOCUMENT": "Accompanying Directive to harmonise digital operational resilience rules for financial organisations in the EU",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_26c",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-20",
+    "DOCUMENT": "EC Communication - Digital Finance Strategy for the EU",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_27a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "Australian Government",
+    "DATE": "Aug-20",
+    "DOCUMENT": "Australia Cyber Security Strategy 2020",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_28a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Aug-20",
+    "DOCUMENT": "US NIST Zero Trust Architecture - Special Publication 800-207",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_29a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WB-FIGI",
+    "INSTITUTION": "WB-FIGI",
+    "DATE": "Aug-20",
+    "DOCUMENT": "FIGI Cybersecurity for FMIs Newsletter Third Edition",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_30a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "FS-ISAC",
+    "INSTITUTION": "FS-ISAC",
+    "DATE": "Jul-20",
+    "DOCUMENT": "FS-ISAC Deloitte Reshaping the cybersecurity landscape",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_31a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "ETSI",
+    "INSTITUTION": "ETSI",
+    "DATE": "Jun-20",
+    "DOCUMENT": "ETSI Cyber Security for Consumer Internet of Things: Baseline Requirements v2.1.2",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_01a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "BIS",
+    "DATE": "May-20",
+    "DOCUMENT": "BIS Working Papers - The drivers of cyber risk",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_02a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Apr-20",
+    "DOCUMENT": "FSB Effective Practices for Cyber Incident Response and Recovery - Consultative Document",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_32a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NYDFS",
+    "DATE": "Apr-20",
+    "DOCUMENT": "NYDFS Guidance to regulated entities regarding cybersecurity awareness during COVID-19 pandemic",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_32b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NYDFS",
+    "DATE": "Mar-20",
+    "DOCUMENT": "NYDFS Guidance to New York State Regulated Institutions and Request for Assurance of Operational Preparedness Relating to the Outbreak of the Novel Coronavirus",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_33a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Apr-20",
+    "DOCUMENT": "CEIP Cyber Mapping the Financial System",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_34a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Ipsos MORI for UK DCMS",
+    "DATE": "Mar-20",
+    "DOCUMENT": "UK DCMS/Ipsos MORI Cyber Security Breaches Survey 2020",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_35a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Ipsos MORI for UK DCMS",
+    "DATE": "Mar-20",
+    "DOCUMENT": "UK DCMS/Ipsos MORI  Analysis of the full costs of cyber security breaches",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_36a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Ipsos MORI for UK DCMS",
+    "DATE": "Mar-20",
+    "DOCUMENT": "UK DCMS/Ipsos MORI Cyber security skills in the UK labour market 2020",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_37a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Mar-20",
+    "DOCUMENT": "NIST Approaches for Federal Agencies to Use the Cybersecurity Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_03a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IIF-McKinsey",
+    "INSTITUTION": "IIF-McKinsey",
+    "DATE": "Mar-20",
+    "DOCUMENT": "IIF/McKinsey Cyber Resilience Survey Cybersecurity posture of the financial services industry",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_38a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "NACD/ISA/AIG",
+    "INSTITUTION": "NACD/ISA/AIG",
+    "DATE": "Feb-20",
+    "DOCUMENT": "NACD/ISA Director�s Handbook on Cyber-Risk Oversight",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_38b",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "NACD/ISA/AIG",
+    "INSTITUTION": "NACD/ISA/AIG",
+    "DATE": "Jan-17",
+    "DOCUMENT": "NACD/ISA Cyber-Risk Oversight Director's Handbook Series",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_38c",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "NACD/ISA/AIG",
+    "INSTITUTION": "NACD/ISA/AIG",
+    "DATE": 2014,
+    "DOCUMENT": "NACD/ISA/AIG Cyber-Risk Handbook",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_39a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ESRB",
+    "DATE": "Feb-20",
+    "DOCUMENT": "ESRB - Systemic Cyber Risk",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_04a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "BIS",
+    "DATE": "Feb-20",
+    "DOCUMENT": "BIS Working Papers - Operational and cyber risks in the financial sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_40a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK National Cyber Security Centre",
+    "DATE": 2019,
+    "DOCUMENT": "UK NCSC - Cyber Security Toolkit for Boards",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_41a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WB-FIGI",
+    "INSTITUTION": "WB-FIGI",
+    "DATE": "Nov-19",
+    "DOCUMENT": "FIGI Cybersecurity for FMIs Newsletter Second Edition",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_05a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EBA",
+    "INSTITUTION": "EBA",
+    "DATE": "Nov-19",
+    "DOCUMENT": "EBA Guidelines on ICT and security risk management",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_06a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "FSI",
+    "DATE": "Nov-19",
+    "DOCUMENT": "FSI Insights on Policy Implementation: Varying shades of red: how red team testing frameworks can enhance the cyber resilience of financial institutions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_07a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "FIGI-ECB-WB",
+    "INSTITUTION": "FIGI-ECB-WB",
+    "DATE": "Nov-19",
+    "DOCUMENT": "Cyber Resilience for Financial Market Infrastructures (original under Dec 2018 ECB-Cyber Resilience Oversight Expectations (CROE))",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_42a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK National Cyber Security Centre",
+    "DATE": "Oct-19",
+    "DOCUMENT": "UK NCSC The Cyber Security Body of Knowledge v. 1.0",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_08a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CPMI",
+    "INSTITUTION": "CPMI",
+    "DATE": "Oct-19",
+    "DOCUMENT": "CPMI Reducing the risk of wholesale payments fraud related to endpoint security: a toolkit",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_43a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "OAS/ISA",
+    "INSTITUTION": "OAS/ISA",
+    "DATE": "Sep-19",
+    "DOCUMENT": "OAS/ISA Cyber-Risk Oversight Handbook for Corporate Boards",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_01a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IMF",
+    "INSTITUTION": "IMF",
+    "DATE": "Sep-19",
+    "DOCUMENT": "IMF Department Paper No. DP/19/15 Cybersecurity Risk Supervision",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_44a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "OAS/AWS",
+    "INSTITUTION": "OAS/AWS",
+    "DATE": "Aug-19",
+    "DOCUMENT": "OAS/AWS NIST Cybersecurity Framework (CSF). A comprehensive approach to cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_02a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Jul-19",
+    "DOCUMENT": "Carnegie Endowment - Capacity-Building Tool Box for Cybersecurity and Financial Organizations - Full Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_02b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CEIP",
+    "INSTITUTION": "CEIP",
+    "DATE": "Jul-19",
+    "DOCUMENT": "Carnegie Endowment - Capacity-Building Tool Box for Cybersecurity and Financial Organizations - Supplementary Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_03a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Jul-19",
+    "DOCUMENT": "FSB - Cyber Incident Response and Recovery - Survey of Industry Practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_45a",
+    "APPLICATION": "Multi-Jurisdiction",
+    "COUNTRY/ORG": "IOSCO",
+    "INSTITUTION": "IOSCO",
+    "DATE": "Jun-19",
+    "DOCUMENT": "IOSCO Cyber Task Force Final Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_09a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Saudi Arabia",
+    "INSTITUTION": "SAMA",
+    "DATE": "May-19",
+    "DOCUMENT": "SAMA Financial Entities Ethical Red-Teaming",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_04a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "May-19",
+    "DOCUMENT": "G7 2019 Conference \"Cybersecurity: Coordinating efforts to protect the financial sector in the global economy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_05a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "May-19",
+    "DOCUMENT": "FSB Progress Report to G20 on Cyber Incident Response and Recovery",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_46a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WB-FIGI",
+    "INSTITUTION": "WB-FIGI",
+    "DATE": "Apr-19",
+    "DOCUMENT": "FIGI Cybersecurity for FMIs Newsletter First Edition",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_06a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Apr-19",
+    "DOCUMENT": "CBR Regulation No. 683-P  - Data protection at credit institutions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_07a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Apr-19",
+    "DOCUMENT": "CBR Regulation No. 684-P  - Data protection at non-credit institutions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_08a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-19",
+    "DOCUMENT": "G7 Foreign Ministers Meeting - Dinard Declaration on the Cyber Norm Initiative",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_01a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Apr-19",
+    "DOCUMENT": "EC EU Cybersecurity Act",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_02a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ESAs",
+    "DATE": "Apr-19",
+    "DOCUMENT": "ESAs Joint Advice on the costs and benefits of a coherent cyber resilience testing framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_03a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ESAs",
+    "DATE": "Apr-19",
+    "DOCUMENT": "ESAs Joint Advice on the need for legislative improvements relating to Information and Communication Technology (ICT) risk management requirements",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_10a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "NBG",
+    "INSTITUTION": "NBG",
+    "DATE": "Mar-19",
+    "DOCUMENT": "NBG Regulation on Cybersecurity Management Framework of Commercial Banks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_09a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "UN",
+    "INSTITUTION": "ITU",
+    "DATE": "Mar-19",
+    "DOCUMENT": "ITU Global Cybersecurity Index (GCI) 2018 Survey",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_04a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Feb-19",
+    "DOCUMENT": "EBA Guidelines on outsourcing arrangements",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_11a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "HKMA",
+    "DATE": "Jan-19",
+    "DOCUMENT": "HKMA Update on Enhanced Competency Framework on Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_10a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Jan-19",
+    "DOCUMENT": "CBR Regulation No. 672-P � Data Protection in the Bank of Russia Payment System",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_12a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "BIS",
+    "DATE": "Dec-18",
+    "DOCUMENT": "BIS Cyber-resilience: Range of practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_11a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": "Dec-18",
+    "DOCUMENT": "ECB TIBER-EU White Team Guidance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_12a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "COBIT",
+    "INSTITUTION": "COBIT",
+    "DATE": "Dec-18",
+    "DOCUMENT": "COBIT 2019 Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_05a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": "Dec-18",
+    "DOCUMENT": "ECB Cyber Resilience Oversight Expectations (CROE) for financial market infrastructures",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_06a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Dec-18",
+    "DOCUMENT": "ENISA Cyber Europe 2018 After Action Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_07a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": "Dec-18",
+    "DOCUMENT": "ECB �UNITAS� Crisis communication exercise report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_13a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "ABS",
+    "DATE": "Nov-18",
+    "DOCUMENT": "Singapore Association of Banks - Red Team: Adversarial Attack Simulation Exercise. Guidelines for the Financial Industry in Singapore",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_08a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Nov-18",
+    "DOCUMENT": "FSB Cyber Lexicon",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_08b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Nov-18",
+    "DOCUMENT": "A summary overview of the responses to the public consultation",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_47a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST - National Institute for Cybersecurity Education",
+    "DATE": "Oct-18",
+    "DOCUMENT": "US NICE of NIST Workforce Management Guidebook",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_14a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "Brookings Institute",
+    "INSTITUTION": "Brookings Institute",
+    "DATE": "Oct-18",
+    "DOCUMENT": "Brookings Institute - The Future of Financial Stability and Cyber Risk",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_13a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Oct-18",
+    "DOCUMENT": "G7 Fundamental Elements for Threat-Led Penetration Testing",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_09a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Oct-18",
+    "DOCUMENT": "G7 Fundamental Elements for Third Party Cyber Risk Management in the Financial Sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_10a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Nigeria",
+    "INSTITUTION": "CBN",
+    "DATE": "Oct-18",
+    "DOCUMENT": "CBN Risk-Based Cybersecurity Framework and Guidelines for Deposit Money Banks and Payment Services Providers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_11a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FSSCC",
+    "DATE": "Oct-18",
+    "DOCUMENT": "US FSSCC Financial Services Sector Cybersecurity Profile Overview and User Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_11b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FSSCC",
+    "DATE": "Oct-18",
+    "DOCUMENT": "Profile Impact Tiering Questionnaire",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_11c",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FSSCC",
+    "DATE": "Oct-18",
+    "DOCUMENT": "Profile - The Roadmap Forward",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_12a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Ghana",
+    "INSTITUTION": "Bank of Ghana",
+    "DATE": "Oct-18",
+    "DOCUMENT": "Bank of Ghana Cyber & Information Security Directive",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_15a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Sep-18",
+    "DOCUMENT": "NIST Cybersecurity Practice Guide,�IT Asset Management, Final",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_16a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Sep-18",
+    "DOCUMENT": "NIST Special Publication (SP) 1800-18 Privileged Account Management for the Financial Services Sector. Draft",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_13a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "California",
+    "DATE": "Sep-18",
+    "DOCUMENT": "California Law on Security of Connected Devices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_14a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Kenya",
+    "INSTITUTION": "CBK",
+    "DATE": "Aug-18",
+    "DOCUMENT": "CBK Draft Guidelines on Cybersecurity for Payment Service Providers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_01a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": "May-18",
+    "DOCUMENT": "ECB TIBER-EU Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_01b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": "Aug-18",
+    "DOCUMENT": "ECB TIBER-EU Services Procurement Guidelines",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_02a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IIF",
+    "INSTITUTION": "IIF",
+    "DATE": "Aug-18",
+    "DOCUMENT": "IIF Cloud Computing in the Financial Sector - Part 1: An essential Enabler",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_03a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Aug-18",
+    "DOCUMENT": "NIST Small Business Cybersecurity Bill",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_14a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "FS-ISAC",
+    "INSTITUTION": "FS-ISAC",
+    "DATE": "Jul-18",
+    "DOCUMENT": "FSISAC CERES Forum",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_17a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "CEPS-ECRI",
+    "INSTITUTION": "CEPS-ECRI",
+    "DATE": "Jun-18",
+    "DOCUMENT": "CEPS-ECRI Cybersecurity in Finance Getting the policy mix right! Report of a CEPS-ECRI Task Force",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_15a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "California",
+    "DATE": "Jun-18",
+    "DOCUMENT": "California Consumer Privacy Act of 2018",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_16a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "CSA",
+    "DATE": "Jun-18",
+    "DOCUMENT": "CSA Singapore Cyber Landscape",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_04a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK",
+    "DATE": "Jun-18",
+    "DOCUMENT": "UK Minimum Cyber Security Standard",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_04b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK",
+    "DATE": "May-18",
+    "DOCUMENT": "HMG Security Policy Framework (SPF)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_05a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Canada",
+    "INSTITUTION": "Canada",
+    "DATE": "Jun-18",
+    "DOCUMENT": "Canada Cyber Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_05b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Canada",
+    "INSTITUTION": "Canada",
+    "DATE": 2010,
+    "DOCUMENT": "Canada Cyber Security Action Plan",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_05c",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Canada",
+    "INSTITUTION": "Canada",
+    "DATE": "Jan-17",
+    "DOCUMENT": "Canada Cyber Security national public consultation report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_17a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Estonia",
+    "INSTITUTION": "Estonia",
+    "DATE": "May-18",
+    "DOCUMENT": "Estonia Cybersecurity Act",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_18a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CPMI",
+    "INSTITUTION": "CPMI",
+    "DATE": "May-18",
+    "DOCUMENT": "CPMI Reducing the risk of wholesale payments fraud related to endpoint security",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_15a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-18",
+    "DOCUMENT": "G7 Ise-Shima Cyber Group - Chair's Report of the Meeting",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_19a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Apr-18",
+    "DOCUMENT": "EC IACS Cybersecurity Certification Framework (ICCF): Lessons from the 2017 study of the state of the art",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_06a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FFIEC",
+    "DATE": "Apr-18",
+    "DOCUMENT": "FFIEC Joint Statement - Cyber Insurance and Its Potential Role in Risk Management Programs",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_07a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IIF",
+    "INSTITUTION": "IIF",
+    "DATE": "Apr-18",
+    "DOCUMENT": "IIF Addressing Regulatory Fragmentation to Support a Cyber-Resilient Global Financial Services Industry",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_08a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Apr-18",
+    "DOCUMENT": "NIST Framework for Improving Critical Infrastructure Cybersecurity Version 1.1",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_09a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Switzerland",
+    "INSTITUTION": "Switzerland",
+    "DATE": "Apr-18",
+    "DOCUMENT": "Swiss national strategy for protection against cyber risks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_09b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Switzerland",
+    "INSTITUTION": "Switzerland",
+    "DATE": "Jun-12",
+    "DOCUMENT": "First NCS",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_48a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "OliverWyman for DTCC",
+    "DATE": "Mar-18",
+    "DOCUMENT": "DTCC OliverWyman Large Scale Cyber Attacks on the Financial System",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_16a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "Russia",
+    "DATE": "Mar-18",
+    "DOCUMENT": "Russian National Standard GOST R 57580.2-2018 - �Security of Financial (Banking) Operations. Information Protection of Financial Organisations. Conformity Assessment Methods�",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_10a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "Singapore",
+    "DATE": "Mar-18",
+    "DOCUMENT": "Singapore Cybersecurity Act",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_49a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WBG",
+    "INSTITUTION": "WBG",
+    "DATE": "Feb-18",
+    "DOCUMENT": "WBG Financial Sector�s Cybersecurity: Regulations and Supervision",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_20a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Rwanda",
+    "INSTITUTION": "BNR",
+    "DATE": "Feb-18",
+    "DOCUMENT": "BNR Rwanda Regulation No 02/2018 OF 24/01/2018 on Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_21a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US SEC",
+    "DATE": "Feb-18",
+    "DOCUMENT": "US SEC Guidance on Public Company Cybersecurity Disclosures",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_11a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Germany",
+    "INSTITUTION": "BaFin",
+    "DATE": "Feb-18",
+    "DOCUMENT": "BaFin specifies BAIT",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_17a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "UN",
+    "INSTITUTION": "ITU",
+    "DATE": "Jan-18",
+    "DOCUMENT": "ITU Guide to Developing a National Cybersecurity Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_18a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECRB",
+    "DATE": "Jan-18",
+    "DOCUMENT": "EU Euro Cyber Resilience Board - Mandate ECRB",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_12a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Jan-18",
+    "DOCUMENT": "EBA Final Report � Guidelines on ICT Risk Assessment under the Supervisory Review and Evaluation Process (SREP)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_12b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "May-17",
+    "DOCUMENT": "Guidelines compliance table",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_01a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ECB",
+    "DATE": 2017,
+    "DOCUMENT": "ECB (SSM) Cyber Incident Reporting Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_18a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Dec-17",
+    "DOCUMENT": "EBA Guidelines on the security measures for operational and security risks of payment services under PSD2",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_18b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Dec-17",
+    "DOCUMENT": "Guidelines Compliance Table (updated: January 2020)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_22a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Dec-17",
+    "DOCUMENT": "EBA Recommendations on outsourcing to cloud service providers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_23a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Nov-17",
+    "DOCUMENT": "ENISA Recommendations on European Data Protection Certification",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_13a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Germany",
+    "INSTITUTION": "BaFin",
+    "DATE": "Sep-18",
+    "DOCUMENT": "BaFin Banking Supervisory requirement for IT of banks (Circular 10/2017)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_14a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Netherlands",
+    "INSTITUTION": "Dutch National Bank",
+    "DATE": "Nov-17",
+    "DOCUMENT": "DNB TIBER-NL Guidance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_15a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "SFC",
+    "DATE": "Oct-17",
+    "DOCUMENT": "SFC Guidelines for Reducing and Mitigating Hacking Risks Associated with Internet Trading",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_16a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Oct-17",
+    "DOCUMENT": "FSB Summary Report on Financial Sector Cybersecurity Regulations, Guidance and Supervisory Practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_16b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G20",
+    "INSTITUTION": "FSB",
+    "DATE": "Oct-17",
+    "DOCUMENT": "FSB Stocktake on Financial Sector Cybersecurity Regulations, Guidance and Supervisory Practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_17a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Oct-17",
+    "DOCUMENT": "G-7 Fundamental Elements for Effective Assessment of Cybersecurity in the Financial Sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_19a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Sep-17",
+    "DOCUMENT": "G7 ICT and Industry Ministers' Declaration: Making the Next Production Revolution Inclusive, Open and Secure",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_19b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Oct-17",
+    "DOCUMENT": "Annex 1 to the Declaration: G7 Common Policy Approaches for SMEs� Competitiveness and Inclusiveness in the NPR",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_19c",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Nov-17",
+    "DOCUMENT": "Annex 2 to the Declaration: G7 Multistakeholder Exchange on Human Centric AI for Our Societies",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_19d",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Dec-17",
+    "DOCUMENT": "Annex 3 to the Declaration: G7 Actions for Enhancing Cybersecurity for Businesses",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_18a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-17",
+    "DOCUMENT": "EC Legislative proposal on a Framework for Free Flow of Non-Personal Data in the EU",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_19a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-17",
+    "DOCUMENT": "EC Legislative proposal on ENISA and cybersecurity certification framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_19b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Sep-17",
+    "DOCUMENT": "EC Communication on Resilience, Deterrence and Defence: Building strong cybersecurity for the EU",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_02a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "Australia",
+    "DATE": "Sep-17",
+    "DOCUMENT": "AU - Banking Exec Accountability & Related Measures Bill",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "05_19a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Aug-17",
+    "DOCUMENT": "NIST Cybersecurity Practice Guide, Access Rights Management for the Financial Services Sector, SP 1800-9. Draft",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_20a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "Russia",
+    "DATE": "Aug-17",
+    "DOCUMENT": "Russian National Standard GOST R 57580.1-2017 - �Security of Financial (Banking) Operations. Information Protection of Financial Organisations. Basic Set of Organisational and Technical Measures�",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_21a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WBG",
+    "INSTITUTION": "WBG",
+    "DATE": "Aug-17",
+    "DOCUMENT": "WB Combatting Cybercrime: Tools and Capacity Building for Emerging Economies",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_24a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Kenya",
+    "INSTITUTION": "CBK",
+    "DATE": "Aug-17",
+    "DOCUMENT": "CBK Guidance Note on Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_03a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST- National Institute for Cybersecurity Education",
+    "DATE": "Aug-17",
+    "DOCUMENT": "US NIST Cybersecurity Workforce Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_04a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "SEC",
+    "DATE": "Aug-17",
+    "DOCUMENT": "US SEC Cybersecurity Examination Initiative Risk Alert",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_04b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "SEC",
+    "DATE": "Apr-14",
+    "DOCUMENT": "US SEC Cybersecurity Examination Initiative",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_05a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "FSI",
+    "DATE": "Aug-17",
+    "DOCUMENT": "FSI Insights: Regulatory approaches to enhance banks� cyber-security frameworks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_06a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IMF",
+    "INSTITUTION": "IMF",
+    "DATE": "Aug-17",
+    "DOCUMENT": "IMF WP- Cyber Risk, Market Failures, and Financial Stability",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_22a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "Cloud Security Alliance",
+    "INSTITUTION": "Cloud Security Alliance",
+    "DATE": "Jul-17",
+    "DOCUMENT": "Cloud Security Alliance�s Security Guidance for Critical Areas of Focus in Cloud Computing",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_07a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "SWIFT",
+    "INSTITUTION": "SWIFT",
+    "DATE": "Jul/ May /Apr-2017",
+    "DOCUMENT": "SWIFT Customer Security Program",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_08a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "FCA",
+    "DATE": "Jul-17",
+    "DOCUMENT": "UK FCA Consultation - Individual Accountability Regime",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_20a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Jun-17",
+    "DOCUMENT": "ENISA Cyber Europe 2016: After Action Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_09a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "ABS",
+    "DATE": "Jun-17",
+    "DOCUMENT": "Singapore Association of Banks� Guidelines on control objectives and procedures for outsourced service providers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_10a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "China",
+    "INSTITUTION": "China",
+    "DATE": "Jun-17",
+    "DOCUMENT": "People Republic of China Cyber-Security Law",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_21a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Saudi Arabia",
+    "INSTITUTION": "SAMA",
+    "DATE": "May-17",
+    "DOCUMENT": "SAMA Cyber Security Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_11a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "May-17",
+    "DOCUMENT": "G7 Communique from meeting at Bari, Italy May12-13 2017",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_12a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "May-17",
+    "DOCUMENT": "EBA ICT risk guidelines (Final)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_12b",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Jun-16",
+    "DOCUMENT": "EBA ICT risk guidelines",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_13a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EU Parliament",
+    "DATE": "May-17",
+    "DOCUMENT": "EU Report on influence of tech on future of financial sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_14a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FFIEC",
+    "DATE": "May-17",
+    "DOCUMENT": "FFIEC Cybersecurity Assessment Tool",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_22a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "India",
+    "DATE": "May-17",
+    "DOCUMENT": "Report of India's Working Group for Setting up of a financial sector CERT",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_23a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "South Africa",
+    "INSTITUTION": "SARB",
+    "DATE": "May-17",
+    "DOCUMENT": "SARB Guidance to banks on cyber resilience",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_23a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-17",
+    "DOCUMENT": "G7 Joint Communiqu� from the 2017 Foreign Ministers Meeting",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_23b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-17",
+    "DOCUMENT": "G7 Declaration on Responsible States Behaviour in Cyberspace (G7 Lucca Declaration)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_24a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US DHS",
+    "DATE": "Apr-17",
+    "DOCUMENT": "US CERT Federal Incident Notification Guidelines",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_24a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "Australia",
+    "DATE": "Apr-17",
+    "DOCUMENT": "Australia�s Cyber Security Strategy First Annual Update",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_25a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "ASX",
+    "DATE": "Apr-17",
+    "DOCUMENT": "ASX 100 Cyber Health Check Survey Report",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_26a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "IRDAI",
+    "DATE": "Apr-17",
+    "DOCUMENT": "IRDAI Guidelines on Information and Cyber Security for insurers",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_15a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ESAs",
+    "DATE": "Apr-17",
+    "DOCUMENT": "ESAs Report on main risks for the EU Financial System",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_16a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "AICPA",
+    "INSTITUTION": "AICPA",
+    "DATE": "Apr-17",
+    "DOCUMENT": "AICPA SOC for Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_27a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "China",
+    "INSTITUTION": "China",
+    "DATE": "Mar-17",
+    "DOCUMENT": "PRC International Strategy of Cooperation on Cyberspace",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_17a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NYDFS",
+    "DATE": "Mar-17",
+    "DOCUMENT": "NY cyber-security requirements for financial services companies",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_18a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Mar-17",
+    "DOCUMENT": "EU Commission Consultation on the impact of FinTech",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_19a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Germany",
+    "INSTITUTION": "BaFin",
+    "DATE": "Mar-17",
+    "DOCUMENT": "BaFin Consultation on bank regulatory reqs for IT systems",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_20a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "CMA",
+    "DATE": "Mar-17",
+    "DOCUMENT": "UK Open Banking Initiative",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_21a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CPMI",
+    "INSTITUTION": "CPMI",
+    "DATE": "Feb-17",
+    "DOCUMENT": "CPMI report - DLT in payment clearing/settlement",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_50a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WEF",
+    "INSTITUTION": "WEF",
+    "DATE": "Jan-17",
+    "DOCUMENT": "WEF Advancing Cyber Resilience: Principles and Tools for Boards",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_25a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NACD",
+    "DATE": "Jan-17",
+    "DOCUMENT": "NACD The role of directors regarding cyber-risk oversight",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_22a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Jan-17",
+    "DOCUMENT": "US NIST draft updated Cybersecurity Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_25a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FSSCC",
+    "DATE": 2016,
+    "DOCUMENT": "US FSSCC Cyber Insurance Purchaser's Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_26a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": 2016,
+    "DOCUMENT": "EC Introduction to the European IACS components Cybersecurity Certification Framework (ICCF)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_28a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Turkey",
+    "INSTITUTION": "Turkey",
+    "DATE": "2016, 2013",
+    "DOCUMENT": "Turkey National Cyber Security Strategy and Action Plan",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_29a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK",
+    "DATE": 2016,
+    "DOCUMENT": "UK National Cyber Security Strategy 2016-2021",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_23a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Bank of England",
+    "DATE": 2016,
+    "DOCUMENT": "UK CBEST Intelligence-Led Vulnerability Testing 2.0",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_23b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Bank of England",
+    "DATE": 2017,
+    "DOCUMENT": "Services Assessment Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_23c",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "Bank of England",
+    "DATE": 2018,
+    "DOCUMENT": "Understanding Cyber Threat Intelligence Operations",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_30a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "China",
+    "INSTITUTION": "China",
+    "DATE": "Dec-16",
+    "DOCUMENT": "PRC National Cyberspace Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_24a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "UK",
+    "DATE": "Dec-16",
+    "DOCUMENT": "UK Gov Cyber-Security Regulation and Incentives Review",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_31a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "HKMA",
+    "DATE": "Dec-16",
+    "DOCUMENT": "HKMA Enhanced Competency Framework on Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_25a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "SFC",
+    "DATE": "Dec-16",
+    "DOCUMENT": "HK SFC Circular on augmenting accountability of senior mgmt",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_26a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "HKMA",
+    "DATE": "Dec-16",
+    "DOCUMENT": "HKMA circular on Cybersecurity Fortification Initiative",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_27a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Oct-16",
+    "DOCUMENT": "G7 Fundamental Elements of Cybersecurity for Financial Sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_28a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FinCEN",
+    "DATE": "Oct-16",
+    "DOCUMENT": "US FinCEN Advisory on FIs obligations on cyber-related events",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_29a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US Federal Banking Agencies",
+    "DATE": "Oct-16",
+    "DOCUMENT": "US FBAs ANPR for enhanced cybersecurity standards",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_30a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "SFC",
+    "DATE": "Oct-16",
+    "DOCUMENT": "HK SFC Review of cybersec. of online & mobile trading systems",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_31a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Malaysia",
+    "INSTITUTION": "SC Malaysia",
+    "DATE": "Oct-16",
+    "DOCUMENT": "MY SC Guidelines to Enhance Cyber resilience of Capital Mkt",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_27a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US CFTC",
+    "DATE": "Sep-16",
+    "DOCUMENT": "US CFTC System Safeguards Testing Requirements",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_28a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Sep-16",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Information Security Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_32a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "APRA",
+    "DATE": "Sep-16",
+    "DOCUMENT": "APRA Information Paper: 2015/16 Cyber Security Survey Results",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_33a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Canada",
+    "INSTITUTION": "CSA",
+    "DATE": "Sep-16",
+    "DOCUMENT": "CSA Staff Notice on Cyber Security",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_32a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Ireland",
+    "INSTITUTION": "Bank of Ireland",
+    "DATE": "Sep-16",
+    "DOCUMENT": "IE CB Cross Industry Guidance on IT and Cybersecurity Risks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_33a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "RBI",
+    "DATE": "Sep-16",
+    "DOCUMENT": "India Non-Banking Financial Company - Account Aggregators",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_51a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IAIS",
+    "INSTITUTION": "IAIS",
+    "DATE": "Aug-16",
+    "DOCUMENT": "IAIS Issues Paper on Cyber Risk to the Insurance Sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_34a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Aug-16",
+    "DOCUMENT": "ENISA Strategies for Incident Response & Cyber Crisis Coop.",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_52a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "Institute for Development and Research in Banking Technology (est by RB of India)",
+    "DATE": "Jul-16",
+    "DOCUMENT": "RBI ICRBT Cybersecurity Checklist",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_35a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "MAS",
+    "DATE": "Jul-16",
+    "DOCUMENT": "MAS Guidelines on Outsourcing",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_36a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Jul-16",
+    "DOCUMENT": "EU Directive on Security of Network and Information Systems",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_34a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "IDRBT",
+    "DATE": "Jul-16",
+    "DOCUMENT": "IDRBT Cyber Security Checklist",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_35a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "RBI",
+    "DATE": "Jun-16",
+    "DOCUMENT": "RBI Circular to Establish Cyber Security Framework in Banks",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_37a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "CPMI-IOSCO",
+    "INSTITUTION": "CPMI-IOSCO",
+    "DATE": "Jun-16",
+    "DOCUMENT": "CPMI-IOSCO Guidance on cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_26a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "May-16",
+    "DOCUMENT": "G7 Ise-Shima Leaders Declaration and establishment of Ise-Shima Cyber Group (ISCG)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_26b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "May-16",
+    "DOCUMENT": "G7 Principles and Actions on Cyber",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_36a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "HKMA",
+    "DATE": "May-16",
+    "DOCUMENT": "HKMA Circular Security controls related to Internet banking services",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_53a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "OAS",
+    "INSTITUTION": "OAS",
+    "DATE": "Apr-16",
+    "DOCUMENT": "OAS Best Practices for Establishing a National CSIRT",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_27a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-16",
+    "DOCUMENT": "G7 ICT Ministers Charter for the Digitally Connected World",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_27b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-16",
+    "DOCUMENT": "G7 ICT Ministers Joint Declaration - Action Plan on Implementing the Charter",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_27c",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "G7",
+    "INSTITUTION": "G7",
+    "DATE": "Apr-16",
+    "DOCUMENT": "Annex to Joint Declaration by G7 ICT Ministers: G7 Opportunities for Collaboration",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_29a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Apr-16",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Retail Payment Systems Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_38a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "IOSCO",
+    "INSTITUTION": "IOSCO",
+    "DATE": "Apr-16",
+    "DOCUMENT": "Report on IOSCO�s Cyber Risk Coordination Efforts",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_37a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "Australia",
+    "DATE": "Apr-16",
+    "DOCUMENT": "Australia�s Cyber Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_39a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Apr-16",
+    "DOCUMENT": "EU General Data Protection Regulation",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_38a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "ASIC",
+    "DATE": "Mar-16",
+    "DOCUMENT": "ASIC - Cyber resilience assessment report: ASX Group and Chi-X Australia Pty Ltd",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_30a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US DHS",
+    "DATE": "Feb-16",
+    "DOCUMENT": "US DHS Cyber Resilience Review (CRR) Method Description and Self-Assessment User Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_30b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US DHS",
+    "DATE": "Feb-16",
+    "DOCUMENT": "US DHS Cyber Resilience Review (CRR) Assessment Package",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_40a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "ISO/IEC",
+    "INSTITUTION": "ISO/IEC",
+    "DATE": "Feb-16",
+    "DOCUMENT": "ISO/IEC - IT, Security Techniques, InfoSec Management Systems",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_41a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EC",
+    "DATE": "Jan-16",
+    "DOCUMENT": "EU Payment Services Directive 2",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_39a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "South Africa",
+    "INSTITUTION": "South Africa",
+    "DATE": "Dec-15",
+    "DOCUMENT": "South Africa National Cybersecurity Policy Framework",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_31a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Nov-15",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Management Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_40a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "France",
+    "INSTITUTION": "France",
+    "DATE": "Oct-15",
+    "DOCUMENT": "France National Digital Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_42a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "MAS",
+    "DATE": "Oct-15",
+    "DOCUMENT": "MAS Circular - Tech Risk and Cybersec Training for Board",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_41a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "HKMA",
+    "DATE": "Sep-15",
+    "DOCUMENT": "HKMA Supervisory Policy Manual, Risk Management of E-banking",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_42a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Japan",
+    "INSTITUTION": "Japan",
+    "DATE": "Sep-15",
+    "DOCUMENT": "Japan�s National Center of Incident Readiness and Strategy for Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_32a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US NFA",
+    "DATE": "Aug-15",
+    "DOCUMENT": "US NFA Compliance Rules 2-9, 2-36 and 2-49: Information Systems Security Programs",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_43a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "MAS",
+    "DATE": "Aug-15",
+    "DOCUMENT": "MAS Circular on Early Detection of Cyber Intrusions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_43a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "India",
+    "INSTITUTION": "SEBI",
+    "DATE": "Jul-15",
+    "DOCUMENT": "SEBI Cyber Security and Cyber Resilience framework of Stock Exchanges, Clearing Corporation and Depositories",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_44a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Japan",
+    "INSTITUTION": "FSA",
+    "DATE": "Jul-15",
+    "DOCUMENT": "JFSA Policy Approaches to Strengthen Cyber Security in the Financial Sector",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_45a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "APRA",
+    "DATE": "Jul-15",
+    "DOCUMENT": "APRA Information Paper: Outsourcing involving Shared Computing Services (including Cloud)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_44a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "UK",
+    "INSTITUTION": "FCA & PRA",
+    "DATE": "Jul-15",
+    "DOCUMENT": "UK FCA/PRA Senior Managers and Certification Regime",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_46a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Hong Kong",
+    "INSTITUTION": "SFC",
+    "DATE": "Jun-15",
+    "DOCUMENT": "SFC Circular to all Licensed Corporations on Internet Trading",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_47a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "SEC",
+    "DATE": "Apr-15",
+    "DOCUMENT": "SEC Investment Management Guidance Update on Cybersecurity Guidance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_45a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Israel",
+    "INSTITUTION": "Bank of Israel",
+    "DATE": "Mar-15",
+    "DOCUMENT": "Central Bank of Israel Directive on Cyber-Defense Management",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_46a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "ASIC",
+    "DATE": "Mar-15",
+    "DOCUMENT": "ASIC�s Report on Cyber Resilience",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_33a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Feb-15",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Business Continuity Planning Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_34a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FINRA",
+    "DATE": "Feb-15",
+    "DOCUMENT": "US FINRA Report on Cybersecurity Practices",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_35a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US CSBS",
+    "DATE": "Dec-14",
+    "DOCUMENT": "US CSBS Cybersecurity 101: A Resource Guide for Bank Executives",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_47a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "EBA",
+    "DATE": "Dec-14",
+    "DOCUMENT": "EBA Guidelines on Security of Internet Payments",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_48a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Japan",
+    "INSTITUTION": "Japan",
+    "DATE": "Nov-14",
+    "DOCUMENT": "Japan�s Basic Act on Cybersecurity",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_36a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Jun-14",
+    "DOCUMENT": "CBR Central Bank of Russia Standard for Maintenance of Information Security of the Russian Banking System Organisations - General Provisions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_36b",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Jun-14",
+    "DOCUMENT": "CBR Central Bank of Russia Standard for Maintenance of Information Security of the Russian Banking System Organisations -  Assessment Method",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_49a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Italy",
+    "INSTITUTION": "CODISE",
+    "DATE": "May-14",
+    "DOCUMENT": "CODISE publishes new Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_50a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Apr-14",
+    "DOCUMENT": "CBR Russian banking system standard on information security maintenance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_48a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "MAS",
+    "DATE": "Mar-14",
+    "DOCUMENT": "MAS Notice on Technology Risk Management",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_51a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Spain",
+    "INSTITUTION": "Spain",
+    "DATE": "Dec-13",
+    "DOCUMENT": "Spain National Cyber Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_52a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Netherlands",
+    "INSTITUTION": "Netherlands",
+    "DATE": "Oct-13",
+    "DOCUMENT": "Netherlands National Cyber Security Strategy",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_53a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Canada",
+    "INSTITUTION": "OSFI",
+    "DATE": "Oct-13",
+    "DOCUMENT": "OSFI Cyber Security Self-Assessment Guidance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_54a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "ASIC",
+    "DATE": "Sep-13",
+    "DOCUMENT": "ASIC REGULATORY GUIDE 172: Australian market licences: Australian operators",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_55a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "France",
+    "INSTITUTION": "ACPR",
+    "DATE": "Jul-13",
+    "DOCUMENT": "ACPR guidance: risks associated with cloud computing",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_56a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Singapore",
+    "INSTITUTION": "MAS",
+    "DATE": "Jun-13",
+    "DOCUMENT": "MAS Technology Risk Management Guideline",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_57a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Australia",
+    "INSTITUTION": "APRA",
+    "DATE": "May-13",
+    "DOCUMENT": "APRA Prudential Practice Guide CPG 234 � Management of Security Risk in Information and Information Technology",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_28a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "PCI",
+    "INSTITUTION": "PCI",
+    "DATE": "Feb-13",
+    "DOCUMENT": "PCI Data Security Standard Cloud Computing Guidelines",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_29a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Aug-12",
+    "DOCUMENT": "NIST Computer Security Incident Handling Guide SP 800-61 r.2",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_58a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "China",
+    "INSTITUTION": "China",
+    "DATE": "Jul-12",
+    "DOCUMENT": "PBOC Implementation guide for classified protection of information system of financial industry",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_30a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "Jun-12",
+    "DOCUMENT": "CBR Regulation No. 382-P � Fund transfers information protection",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_31a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "COBIT",
+    "INSTITUTION": "COBIT",
+    "DATE": "Apr-12",
+    "DOCUMENT": "Cobit 5 excerpt - introduction",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_31b",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "COBIT",
+    "INSTITUTION": "COBIT",
+    "DATE": "Apr-12",
+    "DOCUMENT": "Intro to Cobit 5 presentation",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_37a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FFIEC",
+    "DATE": "Apr-12",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Audit Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_32a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Sep-11",
+    "DOCUMENT": "NIST definition of Cloud Computing SP 800-145",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_33a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "NIST",
+    "DATE": "Sep-11",
+    "DOCUMENT": "NIST Cloud Computing Reference Architecture",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_34a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "Chatham House",
+    "INSTITUTION": "Chatham House",
+    "DATE": "Sep-11",
+    "DOCUMENT": "Chatham House - Cyber Security and the UK�s Critical National Infrastructure",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_49a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "WBG",
+    "INSTITUTION": "WBG",
+    "DATE": "Sep-11",
+    "DOCUMENT": "World Bank - General Principles for Credit Reporting",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_50a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "BIS",
+    "INSTITUTION": "BCBS",
+    "DATE": "Jun-11",
+    "DOCUMENT": "BCBS Principles for the Sound Management of Operational Risk",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_51a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "FFIEC",
+    "DATE": "Jun-11",
+    "DOCUMENT": "FFIEC - Authentication in Internet Banking Environment, suppl.",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_52a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "AICPA",
+    "INSTITUTION": "AICPA",
+    "DATE": "Apr-10",
+    "DOCUMENT": "AICPA suite of SOC & Implementation Guidance",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_59a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "China",
+    "INSTITUTION": "CBRC",
+    "DATE": "Jul-05",
+    "DOCUMENT": "CBRC Guidelines on the Risk Management of Commercial Banks� Information Technology",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_53a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Dec-09",
+    "DOCUMENT": "ENISA National Exercises Good Practice Guide",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_54a",
+    "APPLICATION": "European Union",
+    "COUNTRY/ORG": "EU",
+    "INSTITUTION": "ENISA",
+    "DATE": "Dec-09",
+    "DOCUMENT": "ENISA Good Practice Guide on Incident Reporting",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "02_60a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Germany",
+    "INSTITUTION": "Germany",
+    "DATE": "Aug-09",
+    "DOCUMENT": "German Federal Office for Information Security Act",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "04_35a",
+    "APPLICATION": "Multi-Jurisdictions",
+    "COUNTRY/ORG": "COBIT",
+    "INSTITUTION": "COBIT",
+    "DATE": "May-07",
+    "DOCUMENT": "Cobit 4.1 excerpt - executive summary",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_38a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Russia",
+    "INSTITUTION": "CBR",
+    "DATE": "May-07",
+    "DOCUMENT": "CBR Central Bank of Russia Standard for Information Security of Russian Banking Institutions Information Security Audit",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_55a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Korea",
+    "INSTITUTION": "Korea",
+    "DATE": "Jan-07",
+    "DOCUMENT": "KR Electronic Financial Transactions Act and Enforcement Decree",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "01_56a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "Korea",
+    "INSTITUTION": "Korean FSC/FSS",
+    "DATE": "Jan-07",
+    "DOCUMENT": "KR Reg. on Supervision of Electronic Financial Transactions",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_39a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Jul-04",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Operations Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "03_40a",
+    "APPLICATION": "Single Jurisdiction",
+    "COUNTRY/ORG": "US",
+    "INSTITUTION": "US FFIEC",
+    "DATE": "Jun-04",
+    "DOCUMENT": "US FFIEC IT Examination Handbook: Outsourcing Booklet",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_54a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "CMU/SEI",
+    "INSTITUTION": "CMU/SEI",
+    "DATE": "Dec-03",
+    "DOCUMENT": "CMU/SEI Organizational Models for Computer Security Incident Response Teams (CSIRTs)",
+    "": ""
+  },
+  {
+    "DOC # (INDEX)": "06_55a",
+    "APPLICATION": "Single-Jurisdiction",
+    "COUNTRY/ORG": "CMU/SEI",
+    "INSTITUTION": "CMU/SEI",
+    "DATE": "Apr-03",
+    "DOCUMENT": "CMU/SEI Handbook for Computer Security Incident Response Teams (CSIRTs)",
+    "": ""
+  }
+]
