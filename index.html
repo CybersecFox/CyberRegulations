@@ -6,41 +6,49 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Cyber Regulations List</h1>
-
-  <div class="controls">
+  <!-- Search Bar -->
+  <div class="search-bar">
     <input type="text" id="search-bar" placeholder="Search all columns..." />
   </div>
 
-  <div class="filters">
-    <label>Application:
-      <select id="filter-application"></select>
-    </label>
-    <label>Country/Organization:
-      <select id="filter-country"></select>
-    </label>
-    <label>Institution:
-      <select id="filter-institution"></select>
-    </label>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <div class="filters">
+      <label>Application:
+        <select id="filter-application"></select>
+      </label>
+      <label>Country/Organization:
+        <select id="filter-country"></select>
+      </label>
+      <label>Institution:
+        <select id="filter-institution"></select>
+      </label>
+    </div>
   </div>
 
-  <table id="reg-table">
-    <thead>
-      <tr>
-        <th class="sortable" data-column="APPLICATION">Application</th>
-        <th class="sortable" data-column="COUNTRY/ORG">Country/Org</th>
-        <th class="sortable" data-column="INSTITUTION">Institution</th>
-        <th class="sortable" data-column="DATE">Date</th>
-        <th class="sortable" data-column="DOCUMENT">Name of Regulation</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Cyber Regulations List</h1>
 
-  <div class="pagination">
-    <button id="prev-btn">Previous</button>
-    <span id="page-info"></span>
-    <button id="next-btn">Next</button>
+    <table id="reg-table">
+      <thead>
+        <tr>
+          <th class="sortable" data-column="APPLICATION">Application</th>
+          <th class="sortable" data-column="COUNTRY/ORG">Country/Org</th>
+          <th class="sortable" data-column="INSTITUTION">Institution</th>
+          <th class="sortable" data-column="DATE">Date</th>
+          <th class="sortable" data-column="DOCUMENT">Name of Regulation</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="pagination">
+      <button id="prev-btn">Previous</button>
+      <span id="page-info"></span>
+      <button id="next-btn">Next</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
