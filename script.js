@@ -5,18 +5,15 @@ const rowsPerPage = 10;
 
 // Load JSON data
 fetch('regulations.json')
-  .then(response => {
-    if (!response.ok) throw new Error("File not found or invalid JSON");
-    return response.json();
-  })
+  .then(response => response.json())
   .then(json => {
-    console.log("✅ Raw JSON loaded:", json); // Debug: Show raw data
+    console.log("✅ Raw JSON loaded:", json);
     data = json;
     populateFilters();
     updateTable();
   })
   .catch(error => {
-    console.error("❌ Error loading or parsing JSON:", error);
+    console.error("❌ Error loading JSON:", error);
     document.body.innerHTML = `<h2>Error loading data: ${error.message}</h2>`;
   });
 
@@ -73,7 +70,6 @@ function applyFilters() {
 function sortTable(column) {
   let direction = "asc";
   const header = document.querySelector(`th[data-column="${column}"]`);
-
   if (header.dataset.order === "asc") {
     direction = "desc";
     header.dataset.order = "desc";
@@ -85,37 +81,39 @@ function sortTable(column) {
   filteredData.sort((a, b) => {
     const valA = a[column] ? a[column].toString().toLowerCase() : "";
     const valB = b[column] ? b[column].toString().toLowerCase() : "";
-
-    if (valA < valB) return direction === "asc" ? -1 : 1;
-    if (valA > valB) return direction === "asc" ? 1 : -1;
-    return 0;
+    return direction === "asc" ? (valA > valB ? 1 : -1) : (valA < valB ? 1 : -1);
   });
 
   updateTable();
+}
+
+function getDocumentName(url) {
+  if (!url || typeof url !== 'string') return "Link";
+
+  try {
+    const urlObj = new URL(url);
+    const path = urlObj.pathname.split('/').pop() || "";
+
+    // Try to convert file name into a readable title
+    if (path.includes(".pdf") || path.includes(".html")) {
+      return decodeURIComponent(path.replace(/\.\w+$/, "").replace(/[-_]/g, " "));
+    }
+
+    // If no filename, use domain name
+    return urlObj.hostname.replace(/^www\./, '');
+  } catch (e) {
+    // If not valid URL, treat as plain text
+    return url.length > 50 ? url.substring(0, 50) + "..." : url;
+  }
 }
 
 function updateTable() {
   const tbody = document.querySelector("#reg-table tbody");
   tbody.innerHTML = "";
 
-  // Clear previous sorting indicators
-  document.querySelectorAll("th.sortable").forEach(th => {
-    th.innerText = th.innerText.replace(" ▲", "").replace(" ▼", "");
-  });
-
-  // Add current sort indicator
-  const sortedCol = document.querySelector("th[data-order]");
-  if (sortedCol) {
-    const symbol = sortedCol.dataset.order === "asc" ? " ▲" : " ▼";
-    sortedCol.innerText += symbol;
-  }
-
   const start = (currentPage - 1) * rowsPerPage;
   const end = start + rowsPerPage;
   const pageData = filteredData.slice(start, end);
-
-  console.log("📊 Filtered Data:", filteredData); // Debug: Check filtering
-  console.log("📄 Page Data:", pageData);         // Debug: Check what's rendered
 
   if (filteredData.length === 0) {
     const row = document.createElement("tr");
@@ -134,7 +132,7 @@ function updateTable() {
       <td>${item['COUNTRY/ORG'] || ''}</td>
       <td>${item.INSTITUTION || ''}</td>
       <td>${item.DATE || ''}</td>
-      <td><a href="${item.DOCUMENT}" target="_blank">Link</a></td>
+      <td><a href="${item.DOCUMENT}" target="_blank">${getDocumentName(item.DOCUMENT)}</a></td>
     `;
     tbody.appendChild(row);
   });
@@ -146,12 +144,10 @@ function updatePagination() {
   const totalPages = Math.ceil(filteredData.length / rowsPerPage);
   const pageInfo = document.getElementById("page-info");
   pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-
   document.getElementById("prev-btn").disabled = currentPage === 1;
   document.getElementById("next-btn").disabled = currentPage === totalPages;
 }
 
-// Pagination buttons
 document.getElementById("prev-btn").addEventListener("click", () => {
   if (currentPage > 1) {
     currentPage--;
