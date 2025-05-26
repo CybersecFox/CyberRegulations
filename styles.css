@@ -1,29 +1,71 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  margin: 1em;
   background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  min-height: 100vh;
 }
 
-.controls {
-  margin-bottom: 1em;
+/* Search Bar */
+.search-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1000;
 }
 
-#search-bar {
+.search-bar input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
 }
 
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0; /* Light gray for sidebar */
+  padding: 20px;
+  position: fixed;
+  top: 60px; /* Adjust based on search bar height */
+  left: 0;
+  height: calc(100% - 60px); /* Subtract search bar height */
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
 .filters label {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
 }
 
-.table-container {
-  overflow-x: auto;
+.filters select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
 }
 
-table {
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Match sidebar width */
+  background-color: #fff; /* White background for main content */
+}
+
+#reg-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
@@ -40,3 +82,21 @@ th, td {
 th.sortable:hover {
   cursor: pointer;
   background-color: #f1f1f1;
+}
+
+.pagination {
+  margin-top: 1em;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
