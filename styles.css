@@ -16,7 +16,7 @@ body {
 /* Sidebar */
 .sidebar {
   width: 250px;
-  background-color: #eaeaea;
+  background-color: #f0f0f0;
   padding: 20px;
   position: fixed;
   top: 0;
@@ -27,13 +27,7 @@ body {
 
 .sidebar h2 {
   margin-bottom: 20px;
-  font-size: 1.2em;
-}
-
-.controls input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
+  font-size: 1.5em;
 }
 
 .filters label {
@@ -43,24 +37,14 @@ body {
 
 .filters select {
   width: 100%;
-  padding: 6px;
+  padding: 8px;
   margin-bottom: 10px;
 }
 
-.summary {
-  margin-top: 20px;
+.controls input {
+  width: 100%;
   padding: 10px;
-  background-color: #dcdcdc;
-  border-radius: 4px;
-}
-
-.summary ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.summary li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* Main Content */
@@ -68,13 +52,14 @@ body {
   flex: 1;
   padding: 20px;
   margin-left: 250px;
-  background-color: white;
+  background-color: #fff;
 }
 
 #reg-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
+  background-color: white;
 }
 
 th, td {
