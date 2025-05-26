@@ -40,9 +40,3 @@ th, td {
 th.sortable:hover {
   cursor: pointer;
   background-color: #f1f1f1;
-}
-
-.pagination {
-  margin-top: 1em;
-  text-align: center;
-}
