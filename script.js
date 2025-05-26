@@ -11,6 +11,7 @@ fetch('regulations.json')
     data = json;
     populateFilters();
     updateTable();
+    updateSummary();
   })
   .catch(error => {
     console.error("❌ Error loading JSON:", error);
@@ -31,7 +32,6 @@ function populateFilters() {
   });
 
   document.getElementById("search-bar").addEventListener("input", applyFilters);
-
   document.querySelectorAll("th.sortable").forEach(th => {
     th.addEventListener("click", () => sortTable(th.dataset.column));
   });
@@ -65,6 +65,7 @@ function applyFilters() {
 
   currentPage = 1;
   updateTable();
+  updateSummary();
 }
 
 function sortTable(column) {
@@ -127,17 +128,31 @@ function updatePagination() {
   document.getElementById("next-btn").disabled = currentPage === totalPages;
 }
 
-document.getElementById("prev-btn").addEventListener("click", () => {
-  if (currentPage > 1) {
-    currentPage--;
-    updateTable();
-  }
-});
+function updateSummary() {
+  const summaryList = document.getElementById("summary-list");
+  summaryList.innerHTML = "";
 
-document.getElementById("next-btn").addEventListener("click", () => {
-  const totalPages = Math.ceil(filteredData.length / rowsPerPage);
-  if (currentPage < totalPages) {
-    currentPage++;
-    updateTable();
+  // Total Count
+  summaryList.innerHTML += `<li><strong>Total:</strong> ${data.length}</li>`;
+
+  // Group by Application
+  const appCounts = data.reduce((acc, curr) => {
+    acc[curr.APPLICATION] = (acc[curr.APPLICATION] || 0) + 1;
+    return acc;
+  }, {});
+
+  for (const [app, count] of Object.entries(appCounts)) {
+    summaryList.innerHTML += `<li>${app}: ${count}</li>`;
   }
-});
+
+  // Group by Country/Organization
+  const countryCounts = data.reduce((acc, curr) => {
+    acc[curr["COUNTRY/ORG"]] = (acc[curr["COUNTRY/ORG"]] || 0) + 1;
+    return acc;
+  }, {});
+
+  summaryList.innerHTML += `<li><strong>Countries/Orgs:</strong></li>`;
+  for (const [country, count] of Object.entries(countryCounts)) {
+    summaryList.innerHTML += `<li>${country}: ${count}</li>`;
+  }
+}
