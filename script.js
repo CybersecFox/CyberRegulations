@@ -87,26 +87,6 @@ function sortTable(column) {
   updateTable();
 }
 
-function getDocumentName(url) {
-  if (!url || typeof url !== 'string') return "Link";
-
-  try {
-    const urlObj = new URL(url);
-    const path = urlObj.pathname.split('/').pop() || "";
-
-    // Try to convert file name into a readable title
-    if (path.includes(".pdf") || path.includes(".html")) {
-      return decodeURIComponent(path.replace(/\.\w+$/, "").replace(/[-_]/g, " "));
-    }
-
-    // If no filename, use domain name
-    return urlObj.hostname.replace(/^www\./, '');
-  } catch (e) {
-    // If not valid URL, treat as plain text
-    return url.length > 50 ? url.substring(0, 50) + "..." : url;
-  }
-}
-
 function updateTable() {
   const tbody = document.querySelector("#reg-table tbody");
   tbody.innerHTML = "";
@@ -117,7 +97,7 @@ function updateTable() {
 
   if (filteredData.length === 0) {
     const row = document.createElement("tr");
-    row.innerHTML = `<td colspan="6" style="text-align:center;">No matching records found</td>`;
+    row.innerHTML = `<td colspan="5" style="text-align:center;">No matching records found</td>`;
     tbody.appendChild(row);
     updatePagination();
     return;
@@ -127,12 +107,11 @@ function updateTable() {
     const row = document.createElement("tr");
 
     row.innerHTML = `
-      <td>${item['DOC # (INDEX)'] || ''}</td>
       <td>${item.APPLICATION || ''}</td>
       <td>${item['COUNTRY/ORG'] || ''}</td>
       <td>${item.INSTITUTION || ''}</td>
       <td>${item.DATE || ''}</td>
-      <td><a href="${item.DOCUMENT}" target="_blank">${getDocumentName(item.DOCUMENT)}</a></td>
+      <td>${item.DOCUMENT || ''}</td>
     `;
     tbody.appendChild(row);
   });
